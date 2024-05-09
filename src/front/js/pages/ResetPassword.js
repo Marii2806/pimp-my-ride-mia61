@@ -34,10 +34,10 @@ const ResetPassword = () => {
       if (status) {
         setMessage("Password reset successful");
         if (role == "customer") {
-          navigate("/customer-log-in");
+          navigate("/customer-login");
         }
         else if (role == "user") {
-          navigate("/user-log-in");
+          navigate("/user-login");
         }
         console.log(role)
       } else {

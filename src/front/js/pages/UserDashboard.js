@@ -11,7 +11,7 @@ const UserDashboard = () => {
 
     // useEffect(() => {
     //     if (!store.token) {
-    //         navigate("/user-log-in");
+    //         navigate("/user-login");
     //     }
     // }, [store.token, navigate]);
 
@@ -27,7 +27,7 @@ const UserDashboard = () => {
     useEffect(() => {
         actions.checkIfTokenInSessionStorage();
         if(!store.token) {
-            navigate("/user-log-in");
+            navigate("/user-login");
         }
     }, [store.token])
 

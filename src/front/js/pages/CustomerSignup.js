@@ -33,7 +33,7 @@ export const CustomerSignup = () => {
                 address: address
             });
             if (success) {
-                navigate("/customer-log-in");
+                navigate("/customer-login");
                 // handleLogin();
             } else {
                 alert("something went wrong");
@@ -159,7 +159,7 @@ export const CustomerSignup = () => {
                                 </button>
                             </div>
                             <div>
-                                <Link to='/customer-log-in' className="customer-login-link">Already have an account?</Link>
+                                <Link to='/customer-login' className="customer-login-link">Already have an account?</Link>
                             </div>
                         </div>
                     </div>

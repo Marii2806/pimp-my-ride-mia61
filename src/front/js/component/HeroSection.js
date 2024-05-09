@@ -11,7 +11,7 @@ function HeroSection() {
       <h1>EXCEPTIONAL CAR CARE</h1>
       <p>Track your vehicle's progress in real-time</p>
       <div className='hero-btns'>
-        <Link to='/customer-log-in'>
+        <Link to='/customer-login'>
           <Button
             className='btns'
             buttonStyle='btn--outline'

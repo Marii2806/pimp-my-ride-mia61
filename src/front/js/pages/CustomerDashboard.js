@@ -30,7 +30,7 @@ export const CustomerDashboard = () => {
         }
         try {
             if (!sessionStorage.getItem("token") || !sessionStorage.getItem("customerId")) {
-                navigate("/customer-log-in");
+                navigate("/customer-login");
             } else {
                 getCurrentCustomer();
             }

@@ -39,8 +39,8 @@ const Layout = () => {
                     <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
                     <Routes>
                         <Route element={<Home />} path="/" />
-                        <Route element={<UserLogin setIsLoggedIn={setIsLoggedIn} />} path="/user-log-in" />
-                        <Route element={<CustomerLogin setIsLoggedIn={setIsLoggedIn} />} path="/customer-log-in" />
+                        <Route element={<UserLogin setIsLoggedIn={setIsLoggedIn} />} path="/user-login" />
+                        <Route element={<CustomerLogin setIsLoggedIn={setIsLoggedIn} />} path="/customer-login" />
                         <Route element={<CustomerDashboard />} path="/customer-dashboard" />
                         <Route element={<CustomerWorkOrder />} path="/customer-work-order/:workOrderId" />
                         <Route element={<CustomerSignup />} path="/customer-signup" />
